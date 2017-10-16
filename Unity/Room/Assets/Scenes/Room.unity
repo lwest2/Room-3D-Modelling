@@ -987,40 +987,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 267646851c56bb6419e05a11a4df8e0a, type: 3}
   m_PrefabInternal: {fileID: 746894936}
---- !u!1 &434484341 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100014, guid: 75267da77f4074346aafdbe7493b6493, type: 3}
-  m_PrefabInternal: {fileID: 1027097019}
---- !u!167 &434484345
-AudioReverbZone:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 434484341}
-  m_Enabled: 1
-  m_MinDistance: 1.08
-  m_MaxDistance: 1.56
-  m_ReverbPreset: 12
-  m_Room: -1000
-  m_RoomHF: -4000
-  m_DecayTime: 0.3
-  m_DecayHFRatio: 0.1
-  m_Reflections: -1831
-  m_ReflectionsDelay: 0.002
-  m_Reverb: -1630
-  m_ReverbDelay: 0.03
-  m_HFReference: 5000
-  m_Diffusion: 100
-  m_Density: 100
-  m_LFReference: 250
-  m_RoomLF: 0
---- !u!81 &434484346
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 434484341}
-  m_Enabled: 1
 --- !u!4 &442079786 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 267646851c56bb6419e05a11a4df8e0a, type: 3}
@@ -4266,7 +4232,7 @@ AudioSource:
   m_GameObject: {fileID: 1885687734}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 016a09e2f0ec7424f9dcacf78e25a6e3,
+  OutputAudioMixerGroup: {fileID: 243821644962541120, guid: 016a09e2f0ec7424f9dcacf78e25a6e3,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 9f523d64c546a7f45a275865560249fb, type: 3}
   m_PlayOnAwake: 1
@@ -4279,9 +4245,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 0.2
-  MaxDistance: 1.92
+  MaxDistance: 3.2217336
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -4289,20 +4255,26 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0
+      time: 0.2800906
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -3.5717063
+      outSlope: -3.5717063
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5601812
+      value: 0.5
+      inSlope: -0.8929266
+      outSlope: -0.8929266
       tangentMode: 0
     - serializedVersion: 2
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.28020218
+      outSlope: -0.28020218
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
