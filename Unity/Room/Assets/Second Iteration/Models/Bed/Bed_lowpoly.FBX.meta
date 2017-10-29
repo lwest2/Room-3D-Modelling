@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: f9ef40cc6efa9ee4d8d4e01f99ebf4c3
-timeCreated: 1509026485
-licenseType: Pro
+guid: fd9a7c501d085f2449de5859abeb4629
+timeCreated: 1509307015
+licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
@@ -35,13 +35,13 @@ ModelImporter:
     3300008: Plane006
     3300010: Plane007
     3300012: Plane008
-    4300000: Plane008
-    4300002: Plane007
-    4300004: Plane006
-    4300006: Plane005
-    4300008: Plane004
-    4300010: Box007
-    4300012: Box006
+    4300000: Box007
+    4300002: Box006
+    4300004: Plane008
+    4300006: Plane007
+    4300008: Plane006
+    4300010: Plane005
+    4300012: Plane004
     9500000: //RootNode
   materials:
     importMaterials: 1
